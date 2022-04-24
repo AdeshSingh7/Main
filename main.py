@@ -9,16 +9,10 @@ try:
         if user_input in ('a','A','1'):
             config.Update()
         elif user_input in ('b','B','2'):
-            config.Ngrok()
+            config.Tools()
         elif user_input in ('c','C','3'):
-            config.Wine()
+            config.Ngrok()
         elif user_input in ('d','D','4'):
-            config.Anydesk()
-        elif user_input in ('e','E','5'):
-            config.Whatsapp()
-        elif user_input in ('f','F','6'):
-            config.VisualStudio()
-        elif user_input in ('g','G','7'):
             config.Clean()
         elif user_input in ('q','Q'):
             exit()
