@@ -11,9 +11,9 @@ menu = '''+---------+-------------------------------+
 |  d , 4  | Clean and Clear               |
 |  q , Q  | Quit                          |
 +---------+-------------------------------+\n'''
-tools = 'nano vim git wget figlet toilet curl zip php nmap ruby python python3 python3-pip python3-tk python3-dev'
+tools = 'nano vim git wget figlet toilet curl zip php nmap ruby python python3 python3-pip'
 module = 'DateTime Pillow pyfiglet requests tbomb termcolor urllib3 colorama'
-#ngrok = 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
+ngrok = ''
 #ngrok_key = 'authtoken 1aDvfPiqm635Fbw7uylNwOkxWFl_5kP8X14bhKXiwN7QRkMdr'
 
 def Update():
