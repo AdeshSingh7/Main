@@ -11,7 +11,7 @@ menu = '''+---------+-------------------------------+
 |  d , 4  | Clean and Clear               |
 |  q , Q  | Quit                          |
 +---------+-------------------------------+\n'''
-tools = 'nano vim git wget figlet toilet curl zip php nmap ruby python python3 python3-pip'
+tools = 'nano vim git wget figlet toilet curl zip php nmap ruby python python3'
 module = 'DateTime Pillow pyfiglet requests tbomb termcolor urllib3 colorama'
 ngrok = ''
 #ngrok_key = 'authtoken 1aDvfPiqm635Fbw7uylNwOkxWFl_5kP8X14bhKXiwN7QRkMdr'
