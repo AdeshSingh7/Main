@@ -11,7 +11,8 @@ menu = '''+---------+-------------------------------+
 |  d , 4  | Install Anydesk               |
 |  e , 5  | Install Whatsapp              |
 |  f , 6  | Install Visual Studio Code    |
-|  g , 7  | Clean and Clear               |
+|  g , 7  | Install Slack                 |
+|  h , 8  | Clean and Clear               |
 |  q , Q  | Quit                          |
 +---------+-------------------------------+\n'''
 tools = 'nano vim git wget figlet toilet curl zip apache2 net-tools php nmap ruby libminizip1 libgtkglext1 python python3 python3-pip python3-tk python3-dev'
@@ -64,8 +65,8 @@ def Anydesk():
     os.system('clear')
 
 def Whatsapp():
-    os.system('sudo apt update')
-    os.system('sudo apt install snapd')
+    os.system('sudo apt -y update')
+    os.system('sudo apt -y install snapd')
     os.system('sudo snap install whatsapp-for-linux')
     time.sleep(3)
     os.system('clear')
@@ -74,6 +75,12 @@ def VisualStudio():
     os.system('wget '+visualstudio)
     os.system('sudo dpkg -i *.deb')
     os.system('sudo rm -frv *.deb')
+    time.sleep(3)
+    os.system('clear')
+
+def Slack():
+    os.system('sudo apt -y update')
+    os.system('sudo snap install slack')
     time.sleep(3)
     os.system('clear')
 
