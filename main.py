@@ -19,6 +19,8 @@ try:
         elif user_input in ('f','F','6'):
             config.VisualStudio()
         elif user_input in ('g','G','7'):
+            config.Slack()
+        elif user_input in ('h','H','8'):
             config.Clean()
         elif user_input in ('q','Q'):
             exit()
