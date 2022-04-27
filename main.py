@@ -11,16 +11,6 @@ try:
         elif user_input in ('b','B','2'):
             config.Ngrok()
         elif user_input in ('c','C','3'):
-            config.Wine()
-        elif user_input in ('d','D','4'):
-            config.Anydesk()
-        elif user_input in ('e','E','5'):
-            config.Whatsapp()
-        elif user_input in ('f','F','6'):
-            config.VisualStudio()
-        elif user_input in ('g','G','7'):
-            config.Slack()
-        elif user_input in ('h','H','8'):
             config.Clean()
         elif user_input in ('q','Q'):
             exit()
