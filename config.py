@@ -11,7 +11,7 @@ menu = '''+---------+-------------------------------+
 |  q , Q  | Quit                          |
 +---------+-------------------------------+\n'''
 tools = 'nano vim git wget figlet toilet curl zip apache2 net-tools php nmap ruby libminizip1 libgtkglext1 python python3 python3-pip python3-tk python3-dev'
-module = 'ansible DateTime Flask Pillow PyAutoGUI pyfiglet requests tbomb termcolor urllib3 colorama'
+module = 'ansible DateTime Flask Pillow PyAutoGUI pyfiglet requests tbomb termcolor urllib3 colorama RPi.GPIO gpiozero'
 ngrok = 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 ngrok_key = 'authtoken 1aDvfPiqm635Fbw7uylNwOkxWFl_5kP8X14bhKXiwN7QRkMdr'
 
